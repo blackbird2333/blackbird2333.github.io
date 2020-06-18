@@ -1,18 +1,20 @@
 # Change 'comments' to true for Disqus comments
 disqus:
-  comments: true
-  disqus_shortname: 'apham'
+  comments: false
+  disqus_shortname: ''
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
-google-ID: 'UA-91332049-1'
+google-ID: ''
 
 menu: 
   - name: Featured Projects
     submenu:
-      - name: MicroBam
-        link: /projects/microbam
-      - name: OurLegacy
-        link: /projects/ourlegacy
+      - name: Protein marker
+        link: /projects/protein
+      - name: Epilepsy detection
+        link: /projects/aeeg
+  - name: Home
+    link: /home
   - name: Posts
     link: /
   - name: Tags
@@ -23,11 +25,6 @@ menu:
     submenu:
       - name: GitHub
         icon: github
-        link: http://github.com/alainpham
-      - name: LinkedIn
-        icon: linkedin-square
-        link: http://www.linkedin.com/in/alainpham
-      - name: Twitter
-        icon: twitter
-        link: https://twitter.com/koint
+        link: https://github.com/blackbird2333
+
     
